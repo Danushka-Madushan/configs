@@ -48,7 +48,7 @@
                 }
             }
         ],
-        "spaced-comment": ["error",
+        "spaced-comment": [ "error",
             "always", {
                 "line": {
                     "markers": ["/"],
@@ -97,6 +97,7 @@
         ],
         "eqeqeq": ["error", "smart"],
         "linebreak-style": ["error", "windows"],
+        "object-curly-spacing": [ "error", "always" ],
         "no-whitespace-before-property": "error",
         "no-mixed-spaces-and-tabs": "error",
         "no-prototype-builtins": "off",
