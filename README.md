@@ -75,6 +75,13 @@
                 "after": true
             }
         ],
+        "key-spacing": [
+            "error", {
+                "mode": "strict",
+                "afterColon": true,
+                "beforeColon": false
+            }
+        ],
         "no-duplicate-imports": [
             "error", {
                 "includeExports": true
