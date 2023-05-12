@@ -87,6 +87,12 @@
                 "includeExports": true
             }
         ],
+        "arrow-spacing": [
+            "error", {
+                "before": true,
+                "after": true
+            }
+        ],
         "comma-spacing": [
             "error", {
                 "before": false,
