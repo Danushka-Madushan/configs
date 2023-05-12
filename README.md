@@ -69,7 +69,7 @@
                 "skipTemplates": true
             }
         ],
-        "keyword-spacing": [
+        "keyword-spacing": [ 
             "error", {
                 "before": true,
                 "after": true
@@ -107,9 +107,23 @@
                 "enforceForRenamedProperties": false
             }
         ],
+        "array-bracket-spacing": [ "error",
+            "always", {
+                "singleValue": false,
+                "arraysInArrays": false,
+                "objectsInArrays": false
+            }
+        ],
+        "brace-style": [ "error",
+            "1tbs", {
+                "allowSingleLine": true
+            }
+        ],
+        "curly": ["error", "all"],
         "eqeqeq": ["error", "smart"],
         "linebreak-style": ["error", "windows"],
-        "object-curly-spacing": [ "error", "always" ],
+        "object-curly-spacing": ["error", "always"],
+        "template-curly-spacing": ["error", "always"],
         "no-whitespace-before-property": "error",
         "no-mixed-spaces-and-tabs": "error",
         "no-prototype-builtins": "off",
@@ -120,7 +134,9 @@
         "no-multi-spaces": "error",
         "no-else-return" : "error",
         "no-fallthrough": "error",
-        "valid-jsdoc": "error"
+        "valid-jsdoc": "error",
+        "prefer-const": "error",
+        "no-var": "error"
     },
     "parserOptions": {
         "ecmaVersion": 2022
