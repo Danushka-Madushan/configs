@@ -8,6 +8,19 @@
 }
 ```
 
+`nodemon.json`
+
+```json
+{
+    "exec": "index.js",
+    "ignore": ["node_modules"],
+    "ext": ".js,.json",
+    "env": {
+        "NODE_ENV": "development"
+    }
+}
+```
+
 `.eslintrc.json`
 
 ```json
