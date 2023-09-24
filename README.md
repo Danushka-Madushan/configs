@@ -27,7 +27,7 @@
 #### TypeScript Dev Dependancies + ESLint
 
 ```sh
-npm init -y && npm i typescript && npm i -D nodemon tsc-watch eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
+npm init -y && npm i joi express tseep helmet typescript @types/node @types/express @types/cors && npm i -D @typescript-eslint/parser @typescript-eslint/eslint-plugin dotenv eslint nodemon tsc-watch
 ```
 
 #### NodeMon
